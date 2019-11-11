@@ -1,0 +1,361 @@
+@font-face {
+    font-family: 'Futura Heavy';
+    src: url("../fonts/Futura-Heavy-font.ttf")format("truetype");
+   
+}
+@font-face {
+    font-family: 'Futura';
+    src: url("../fonts/futura-light-bt.ttf") format("truetype");
+   
+}
+
+
+@font-face {
+    font-family: 'Playlist';
+    src: url("../fonts/Playlist Script.otf")format("truetype");
+   
+}
+
+@font-face {
+	font-family: 'PlaylistScript';
+	src:url( "../fonts/Playlist Script.otf") format("opentype");
+}
+
+body{
+    font-family: 'Futura';
+    font-size: 14px;
+    color: #fff;
+
+}
+
+
+header{
+  	text-transform: uppercase;
+	font-family: 'Futura Heavy';
+
+}
+
+
+
+#home{
+	background-image: url("../img/background-home.jpg");
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	position: relative;
+	padding: 9.5%;
+}
+
+#home .logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-bottom: 20%;
+	align-content: top;
+  width: 24%;
+}
+
+ .btn-light-trans{
+	 
+	display: block;
+	margin: auto;
+	background-color: transparent;
+	border-color: #FFFFFF;
+    font-size: 15px;
+	color: #FFFFFF;
+	border-radius: 2;
+	align-content: center;
+	font-family: 'Futura Heavy';
+	text-transform: uppercase;
+	width: 100px;
+	 text-align: center;
+	
+	   position:absolute;
+	left: 590px;
+	bottom: 250px;
+	
+	
+
+}
+
+
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header-area.sticky{
+	background-color: #a26f4f !important;
+}
+
+
+
+.btn-light-trans:hover {
+  
+	color:#FFFFFF;
+	border-color: #FDBA91;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#story{
+	background-size: cover;
+	background-position: top center;
+	padding: 10.5%;
+	background-image: url("../img/story-back.jpg");
+	
+}
+
+#story h1{
+	color: #8c8c8c;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 40px;
+	
+}
+
+
+
+#story h2{
+	font-family: 'PlaylistScript';
+	color: #cb936e;
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+
+#story p {
+	text-align: center;
+	color: #cb936e;
+}
+
+
+#recipes{
+	padding: 80px;
+}
+
+
+
+.recipes-texto h6{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #FFFFFF;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	transition: all 0.2s ease-in;
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 10px;
+	font-weight: 600;
+	font-family: 'Futura Heavy';
+	
+	
+}
+
+
+.recipes-fondo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	 background-color: rgba(203,147,110,0.45);
+	opacity: 0;
+	transition: all 0.1s ease-in;
+	z-index: 10;
+	
+}
+
+.recipes-fondo:hover{
+
+	opacity: 1;
+}
+
+#menu{
+	padding: 40px;
+}
+
+#menu h3{
+	font-family: 'PlaylistScript';
+	color: #cb936e;
+	font-size: 60px;
+	margin-left: 140px;
+
+}
+
+
+#menu h4{
+	font-family: 'Futura Heavy';
+	color: #8A8A8A;
+	font-size: 30px;
+	margin-left: 170px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+#menu p{
+	color: #A3A3A3;
+	text-align: center;
+	margin-right: 100px;
+	
+}
+
+#reviews{
+	background-image: url("../img/1306023.jpg");
+	background-size: cover;
+	color: #E8E8E8;
+	text-align: center;
+	font-family: 'Futura';
+	height: 100vh;
+	font-weight: 300;
+	display: cover;
+	font-size: 14px;
+}
+
+.photos{
+	border-radius: 100%;
+	height: 100px;
+}
+
+#reviews .title{
+	text-transform: uppercase;
+	padding-top:30%;
+	font-family: 'Futura';
+	font-weight: 300;
+	letter-spacing:4px;
+	font-size: 50px;
+	
+}
+
+.title::after{
+	content: '';
+	background-color: #a26f4f;
+	width: 60px;
+	height: 4px;
+	display: block;
+	margin: 30px auto;
+	border-radius: 15px;
+}
+
+#reviews .subtitle{
+	font-family: 'PlaylistScript';
+	font-size: 40px;
+}
+
+#reviews h6{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 12px;
+}
+#honey-waffles{
+	background-image: url("../img/waffles-honey.jpg");
+	background-size:cover;
+	color: #0E0E0E;
+	text-align: center;
+	font-family: 'Futura';
+	height: 100vh;
+	font-weight: 300;
+	font-size: 14px;
+}
+#honey-waffles .title{
+	text-transform: uppercase;
+	padding-top:30%;
+	font-family: 'Futura Heavy';
+	font-weight: 300;
+	letter-spacing:4px;
+	font-size: 50px;
+	
+}
+
+#honey-waffles .subtitle{
+	font-family: 'PlaylistScript';
+	font-size: 40px;
+	color: #7F623D;
+}
+
+#honey-waffles p{
+	text-align: justify !important;
+	font-family: 'Futura';
+}
+
+#honey-waffles .btn-light{
+	background-color: #C58A47;
+	color: #E8E8E8;
+	text-transform: uppercase;
+	padding: 10px 80px;
+	border-radius: 12px;
+}
+
+#honey-waffles .btn-light:hover{
+	background-color: #ffffff;
+	color: #c58a47;
+	text-transform: uppercase;
+	padding: 10px 80px;
+	border-radius: 12px;
+}
+
+#thank-you{
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: #FFFFFF;
+	padding-top: 10% 0;	
+}
+
+#thank-you h1{
+	font-size: 80px;
+	line-height: 1.6;
+	text-align: center;
+	padding-top: 10%;
+	font-family: 'PlaylistScript';
+	
+}
+
+#thank-you p{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 25px;
+	font-size: 18px;
+}
+
+#thank-you .fab{
+	padding-top: 25px;
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+.btn-new{
+	padding: 15px 50px;
+	font-size: 20px; 
+	border: 0;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.btn-turquesa{
+	
+	background-color: #c58a47;
+	border-color: transparent;
+}
+
+
+
+.btn-turquesa:hover{
+	background-color: #fff;
+	color: #3f4d6b;
+}
+
+footer p{
+	color: #414141;
+	font-family: 'Futura';
+	letter-spacing: 2px;
+	font-weight: 300;
+	padding-top: 20px;
+	text-align: center;
+}
